@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Link ico-->
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" /> 
+    
+    <!--Links de CSS-->
+    <link rel="stylesheet" href="css/nornalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeriabanner.css" />
+        
+    <!--Links fuentes-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Norican/Roboto" rel="stylesheet"/>
+    
+    <!--Links de JQuery-->
+    <script src="js/html5shiv.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/cycle2/jquery.cycle2.min.js"></script>   
+    
+	<script> 
+		$( '#fotos' ).cycle( {
+			fx: 'fade',
+			speed: 1000,
+			timeout: 3000,
+			tileCount: 5,
+		} );
+	</script>      
+
+    <title>La Parolaccia - Restaurantes</title>
+
+</head>
+
+<body>
+    <div class="contenido">
+       <header>
+            <nav class="navbar">
+                <span id="navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+
+                <a href="index.html" id="logo"><h1>La Parolaccia</h1></a>
+
+                <ul id="main-nav">
+                    <li><a href="index.html" class="nav-links">Inicio</a></li>
+                    <li><a href="especialidades.html" class="nav-links">Especialidades</a></li>
+                    <li><a href="restorantes.html" class="nav-links">Restaurantes</a></li>
+                    <li><a href="reservas.html" class="nav-links">Reservas</a></li>
+                    <li><a href="contacto.html" class="nav-links">Contacto</a></li>
+                </ul>             
+            </nav>
+        </header>
+    
+    <main>
+            <div id="fotos">
+            <div class="cycle-pager"></div>
+                <img src="image/banner05.jpg" alt="Patio La Parolaccia">
+                <img src="image/banner01.jpg" alt="Plato de pastas">
+                <img src="image/banner02.jpg" alt="Bollo de masa">
+                <img src="image/banner03.jpg" alt="Fuccile al pesto">
+                <img src="image/banner04.jpg" alt="Cocina restorant">
+            </div>
+        
+        <section id="Nuestros">
+            <h2 id="restoh2">Nuestros Restaurantes</h2>
+                <ul class="galeria">
+                    <li>
+                       <h3>Barrio Norte</h3>
+                       <img src="image/mobile_image/Barrio%20Norte.jpg" alt="La Parolaccia - Barrio Norte">
+                       <ul>
+                           <li><strong>Riobamba 1046</strong>, Barrio Norte, <abbr title="Ciudad Autonoma de Buenos Aires">CABA</abbr>.</li>
+                           <li><abbr title="Teléfono">Tel.</abbr> 4812-1053</li>
+                           <li><strong>Horarios Lunes a Domingos, 12:00 a 16:00 y 20:00 a 01:00</strong></li>
+                       </ul>
+                    </li>
+                    <li>
+                        <h3>Puerto Madero</h3>
+                        <img src="image/mobile_image/puerto%20madero.jpg" alt="La Parolaccia - Puerto Madero">
+                        <ul>
+                            <li><strong>A. Moreau de Justo 1170</strong>, <abbr title="Puerto">Pto</abbr> Madero, <abbr title="Ciudad Autonoma de Buenos Aires">CABA</abbr>.</li>
+                            <li><abbr title="Teléfono">Tel.</abbr> 4343-0063</li>
+                            <li><strong>Horarios Lunes a Domingos, 12:00 a 01:00</strong></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Pilar</h3>
+                        <img src="image/mobile_image/Pilar.jpg" alt="La Parolaccia - Pilar"/>
+                        <ul>
+                            <li><strong>Panamericana Km42</strong>, Pilar, <abbr title="Buenos Aires">BAires</abbr>.</li>
+                            <li><abbr title="Teléfono">Tel.</abbr> 02320-301373</li>
+                            <li><strong>Horarios Lunes a Domingos, 12:00 a 16:00 y 20:00 a 01:00</strong></li>
+                        </ul>                
+                    </li>
+                    <li>
+                        <h3>San Isidro</h3>
+                        <img src="image/mobile_image/sanisidro.jpg" alt="La Parolaccia - San Isidro">
+                        <ul>
+                            <li><strong>Av Libertador 14621</strong>, San Isidro, <abbr title="Buenos Aires">BAires</abbr>.</li>
+                            <li><abbr title="Teléfono">Tel.</abbr> 4793-1090</li>
+                            <li><strong>Horarios Lunes a Domingos, 12:00 a 01:00</strong></li>
+                        </ul>                
+                    </li>
+                    <li>
+                        <h3>Belgrano</h3>
+                        <img src="image/mobile_image/belgrano.jpg" alt="La Parolaccia - Belgrano">
+                        <ul>
+                            <li><strong>Avenida Libertador 5836</strong>, Belgrano, <abbr title="Ciudad Autonoma de Buenos Aires">CABA</abbr>.</li>
+                            <li><abbr title="Teléfono">Tel.</abbr> 4793-1090</li>
+                            <li><strong>Horarios Lunes a Domingos, 12:00 a 01:00</strong></li>
+                        </ul>                
+                    </li>
+                    <li>
+                        <h3>Palermo</h3>
+                        <img src="image/mobile_image/Palermo.jpg" alt="La Parolaccia - Palermo">
+                        <ul>
+                            <li><strong>Cerviño 3561</strong>, Palermo, <abbr title="Ciudad Autonoma de Buenos Aires">CABA</abbr>.</li>
+                            <li><abbr title="Teléfono">Tel.</abbr> 4793-1090</li>
+                            <li><strong>Horarios Lunes a Domingos, 12:00 a 01:00</strong></li>
+                        </ul>                
+                    </li>
+                </ul>
+        </section>
+        
+    </main>
+    
+        <footer class="footer">
+			<div class="footer-right">
+				<a href="https://www.facebook.com/LaParolaccia" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/laparolaccia/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/la_parolaccia?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/food-&-services-consulting-sa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <p>FRANCO CINNANTE &copy; 2018</p>
+			</div>
+
+			<div class="footer-left">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="especialidades.html">Especialidades</a></li>
+                        <li><a href="restorantes.html">Restaurantes</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="trabajaconnosotros.html">Trabaja con nosotros</a></li>
+                    </ul>
+				</div>
+			</div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

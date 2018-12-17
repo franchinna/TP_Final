@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Link ico-->
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" /> 
+    
+    <!--Links de CSS-->
+    <link rel="stylesheet" href="css/nornalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeriabanner.css" />
+        
+    <!--Links fuentes-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Norican/Roboto" rel="stylesheet"/>
+    
+    <!--Links de JQuery-->
+    <script src="js/html5shiv.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/cycle2/jquery.cycle2.min.js"></script>
+   
+    
+	<script> 
+		$( '#fotos' ).cycle( {
+			fx: 'fade',
+			speed: 1000,
+			timeout: 3000,
+			tileCount: 5,
+		} );
+	</script>      
+
+    <title>La Parolaccia - Inicio</title>
+
+</head>
+
+<body>
+    <div class="contenido">
+       <header>
+            <nav class="navbar">
+                <span id="navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+
+                <a href="index.html" id="logo"><h1>La Parolaccia</h1></a>
+
+                <ul id="main-nav">
+                    <li><a href="index.html" class="nav-links">Inicio</a></li>
+                    <li><a href="especialidades.html" class="nav-links">Especialidades</a></li>
+                    <li><a href="restorantes.html" class="nav-links">Restaurantes</a></li>
+                    <li><a href="reservas.html" class="nav-links">Reservas</a></li>
+                    <li><a href="contacto.html" class="nav-links">Contacto</a></li>
+                </ul>             
+            </nav>
+        </header>
+    
+    <main>
+            <div id="fotos">
+            <div class="cycle-pager"></div>
+                <img src="image/banner01.jpg" alt="Plato de pastas">
+                <img src="image/banner02.jpg" alt="Bollo de masa">
+                <img src="image/banner03.jpg" alt="Fuccile al pesto">
+                <img src="image/banner04.jpg" alt="Cocina restorant">
+                <img src="image/banner05.jpg" alt="Patio La Parolaccia">
+            </div>
+        
+        <section>
+            <h2 id="quienessomosh2">¿Quiénes somos?</h2>
+            <div id="quienessomos">
+                <p>
+                    <strong>La Parolaccia nace en Roma, Italia. A mediados del siglo XX, una familia funda un humilde Restaurante en el tradicional Barrio Trastévere.</strong> Su particular modo de recibir a los clientes inspiró al nombre, que se convertiría en un sinónimo del buen comer. <strong>Lo llamaron “La Parolaccia” cuyo significado es “La Mala Palabra” o “La Palabrota”.</strong>
+                </p>
+                <p class="desktop">
+                    <em>Con más de 28 años de presencia en Argentina</em>, La Parolaccia sigue siendo fiel al estilo que le dio origen calidad, cordialidad y una esmerada atención. Manteniendo intacta la esencia a lo largo de su historia y logrando distinguir el verdadero sabor de la cocina italiana, <strong>La Parolaccia se ha convertido en un clásico de Buenos Aires.</strong>
+
+                </p>
+                <p>
+                    Dentro de su completa carta, donde <strong>las pastas son protagonistas por excelencia</strong>, encontrará una amplia variedad de opciones apta para los paladares más exigentes.
+                </p>
+            </div>
+        </section>
+  
+            <div id="menudeldia">
+                <h2>Menú del día</h2>
+                <ul class="galeria">
+                    <li><img src="image/mobile_image/menuin.jpg" alt=""></li>
+                    <li><img src="image/mobile_image/menuout.jpg" alt=""></li>
+                    <li><img src="image/mobile_image/menuchico.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        <section>
+           <h2 id="disfruta" class="normalh2">Distruta de nosotros!</h2>
+            <ul class="galeria2">
+                <li>
+                   <a href="restorantes.html" target="_blank">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="image/mobile_image/restaurantes_home.jpg" />
+                            <img src="image/restaurantes_home.jpg" alt="Link a restaurantes">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                   <a href="especialidades.html" target="_blank">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="image/mobile_image/especialidades_home.jpg" />
+                            <img src="image/especialidades_home.jpg" alt="Link a especialidades">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                   <a href="reservas.html" target="_blank">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="image/mobile_image/reservas_home.jpg" />
+                            <img src="image/reservas_home.jpg" alt="Link a reservas">
+                        </picture>
+                    </a>
+                </li>
+                <li>
+                   <a href="contacto.html" target="_blank">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="image/mobile_image/eventos_home.jpg.jpg" />
+                            <img src="image/eventos_home.jpg" alt="Link a contacto">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        </main>
+    
+        <footer class="footer">
+			<div class="footer-right">
+				<a href="https://www.facebook.com/LaParolaccia" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/laparolaccia/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/la_parolaccia?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/food-&-services-consulting-sa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <p>FRANCO CINNANTE &copy; 2018</p>
+			</div>
+
+			<div class="footer-left">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="especialidades.html">Especialidades</a></li>
+                        <li><a href="restorantes.html">Restaurantes</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="trabajaconnosotros.html">Trabaja con nosotros</a></li>
+                    </ul>
+				</div>
+			</div>
+        </footer>
+    </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Link ico-->
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" /> 
+    
+    <!--Links de CSS-->
+    <link rel="stylesheet" href="css/nornalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeriabanner.css" />
+        
+    <!--Links fuentes-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Norican/Roboto" rel="stylesheet"/>
+    
+    <!--Links de JQuery-->
+    <script src="js/html5shiv.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/cycle2/jquery.cycle2.min.js"></script>   
+    
+	<script> 
+		$( '#fotos' ).cycle( {
+			fx: 'fade',
+			speed: 1000,
+			timeout: 3000,
+			tileCount: 5,
+		} );
+	</script>      
+
+    <title>La Parolaccia - Reservas</title>
+
+</head>
+
+<body>
+    <div class="contenido">
+       <header>
+            <nav class="navbar">
+                <span id="navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+
+                <a href="index.html" id="logo"><h1>La Parolaccia</h1></a>
+
+                <ul id="main-nav">
+                    <li><a href="index.html" class="nav-links">Inicio</a></li>
+                    <li><a href="especialidades.html" class="nav-links">Especialidades</a></li>
+                    <li><a href="restorantes.html" class="nav-links">Restaurantes</a></li>
+                    <li><a href="reservas.html" class="nav-links">Reservas</a></li>
+                    <li><a href="contacto.html" class="nav-links">Contacto</a></li>
+                </ul>             
+            </nav>
+        </header>
+    
+    <main>
+            <div id="fotos">
+            <div class="cycle-pager"></div>
+                <img src="image/banner03.jpg" alt="Fuccile al pesto">
+                <img src="image/banner04.jpg" alt="Cocina restorant">
+                <img src="image/banner05.jpg" alt="Patio La Parolaccia">
+                <img src="image/banner01.jpg" alt="Plato de pastas">
+                <img src="image/banner02.jpg" alt="Bollo de masa">                
+            </div>
+        
+        
+        <section id="formulario">
+           <h2 class="reserva">Reservá tu mesa ahora!</h2>
+            <form action="gracias.html" method="post" class="form-consulta"> 
+                <label>Nombre y apellido: <b class="rojo">*</b>
+                    <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+                </label>
+
+                <label>Email: <b class="rojo">*</b>
+                    <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                </label>
+                
+                <label>Fecha de reserva: <b class="rojo">*</b>
+                    <input type="date" name="reserva" step="1" min="2018-01-01" max="2019-12-31" value="2019-01-01" class="campo-form">
+                </label>
+                
+                <div>
+                   <p>Cantindad de personas</p>
+                    <select name="Motivo_de_contacto" class="campo-form">
+                        <option value="" selected>Seleccione cantidad de personas</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div>
+                   <p>Restaurante a reservar</p>
+                    <select name="Restaurante" class="campo-form">
+                        <option value="" selected>Seleccione restaurante</option>
+                        <option value="Bario Norte">Capital - Barrio Norte</option>
+                        <option value="Pto Madero">Capital - Pto Madero</option>
+                        <option value="Belgrano">Capital - Belgrano</option>
+                        <option value="San Isidro">San Isidro</option>
+                        <option value="Pilar">Pilar</option>
+                        <option value="Martinez">Martinez</option>
+                    </select>
+                </div>
+
+                <label>
+                    <input type="checkbox" name="Terminos" class="campo-form-check" required>  Terminos y Condiciones 
+               </label>             
+
+                <input type="submit" value="Enviar" class="btn-form">
+            </form>
+
+        </section>        
+    </main>
+    
+        <footer class="footer">
+			<div class="footer-right">
+				<a href="https://www.facebook.com/LaParolaccia" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/laparolaccia/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/la_parolaccia?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/food-&-services-consulting-sa" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <p>FRANCO CINNANTE &copy; 2018</p>
+			</div>
+
+			<div class="footer-left">
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="especialidades.html">Especialidades</a></li>
+                        <li><a href="restorantes.html">Restaurantes</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="trabajaconnosotros.html">Trabaja con nosotros</a></li>
+                    </ul>
+				</div>
+			</div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
